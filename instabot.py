@@ -102,7 +102,7 @@ class InstagramBot:
                         close_button.click()
                 time.sleep(random.randrange(20, 200, 10))
             print(hashtag + ": ", like_count)
-            print(hashtag, ' ', time.ctime())
+            print (hashtag, ' ', time.ctime())
             print('=================================')
             time.sleep(random.randrange(900, 1200, 60))
         print('Total likes given: ', total_likes)
@@ -111,7 +111,7 @@ class InstagramBot:
 print('=================================')
 print('Begin: ', time.ctime())
 print('=================================')
-levazarkh = InstagramBot("username", "password")
+levazarkh = InstagramBot("levazarkh", "LeonardoLion19")
 levazarkh.login()
 levazarkh.like_photos(['mood', 'fashion', 'kiev', 'beautifulgirl', 'model', 'photography', 'beautiful', 'art', 'girl',
                        'inspire', 'portrait', 'lifeportraits', '35mm', 'videography',
