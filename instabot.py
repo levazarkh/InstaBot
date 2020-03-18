@@ -111,16 +111,12 @@ class InstagramBot:
 print('=================================')
 print('Begin: ', time.ctime())
 print('=================================')
-levazarkh = InstagramBot("levazarkh", "LeonardoLion19")
-levazarkh.login()
-levazarkh.like_photos(['mood', 'fashion', 'kiev', 'beautifulgirl', 'model', 'photography', 'beautiful', 'art', 'girl',
+someuser = InstagramBot("someuser", "somepassword")
+someuser.login()
+someuser.like_photos(['mood', 'fashion', 'kiev', 'beautifulgirl', 'model', 'photography', 'beautiful', 'art', 'girl',
                        'inspire', 'portrait', 'lifeportraits', '35mm', 'videography',
                        'shotoncanon', 'photogear', 'dji', 'videoedits', 'modelukraine'
                        'dslr', 'cinema', 'camerasetup'])
 print('=================================')
 print('End: ', time.ctime())
 print('=================================')
-
-# this_amazing_art = InstagramBot("this.amazing.art", "Rkfdbfnehf&123")
-# this_amazing_art.login()
-# this_amazing_art.like_photos(['art'])
